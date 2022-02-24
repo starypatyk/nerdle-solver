@@ -10,7 +10,7 @@ while True:
     hint = input("Enter response: ")
     test_perms = answers[hint]
     if (len(test_perms) == 1):
-        print("Enter guess:    " + test_perms[0] + " - for sure 😉")
+        print("Enter guess:    " + test_perms[0] + " - for sure ;-)")
         break
     else:
         guess = calculate_best_guess(test_perms)
